@@ -15,7 +15,7 @@ source $VIRTUALENV_PATH/bin/activate
 pip install -r requirements.txt
 
 # 스크립트 실행
-python3 model.py
+python3 script.py
 
 # 가상 환경 비활성화
 deactivate

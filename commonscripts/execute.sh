@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 파이썬 버전 및 가상 환경 경로 설정
-PYTHON_VERSION="python3.8"
-VIRTUALENV_PATH="./"
+PYTHON_VERSION="python3"
+VIRTUALENV_PATH="./venv"
 
 # 가상 환경 생성
 $PYTHON_VERSION -m pip install virtualenv
@@ -15,7 +15,7 @@ source $VIRTUALENV_PATH/bin/activate
 pip install -r requirements.txt
 
 # 스크립트 실행
-python3 your_script.py
+python3 script.py
 
 # 가상 환경 비활성화
 deactivate
