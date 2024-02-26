@@ -19,3 +19,5 @@ print("3 fold cross validation mean score:", np.mean(scores))
 kfold = KFold(n_splits=5, shuffle=True, random_state=42)
 scores = cross_val_score(model, X, y, cv=kfold)
 print("5 fold cross validation mean score:", np.mean(scores))
+
+# could not code a proper code for leave one out so updating later for it.
